@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="lt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mentoriai | ALUMNAS</title>
+    <meta
+      name="description"
+      content="Rask ALUMNAS mentorių pagal studijų kryptį, universitetą ir tau rūpimus klausimus."
+    />
+    <meta property="og:title" content="Mentoriai | ALUMNAS" />
+    <meta
+      property="og:description"
+      content="Peržiūrėk mentorius, filtruok pagal kryptį ir universitetą, tada išsirink pokalbį."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="theme-color" content="#123f79" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Sora:wght@400;500;600;700;800&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="mentors-page">
+    <div class="top-note">
+      <p>Platforma šiuo metu vis dar veikia beta režimu, tačiau konsultacijos jau vyksta.</p>
+    </div>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand-link" href="./index.html#pradžia" aria-label="ALUMNAS pradžia">
+          <span class="brand-logo brand-logo-dark" aria-hidden="true">
+            <img src="./assets/alumnas-logo-clean.png" alt="" />
+          </span>
+          <span class="sr-only">ALUMNAS</span>
+        </a>
+
+        <nav class="site-nav" aria-label="Mentorių navigacija">
+          <a href="./index.html">Pradžia</a>
+          <a href="./mentoriai.html" class="is-active">ALUMNAI</a>
+          <a href="./apie-mus.html">Apie mus</a>
+        </nav>
+
+        <a
+          class="button button-primary"
+          href="https://forms.gle/Wdv8qS5zdkdKtjoA7"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Pasiūlyk alumną
+        </a>
+      </div>
+    </header>
+
+    <main class="mentors-main">
+      <section class="mentors-hero">
+        <div class="container">
+          <div class="mentors-hero-visual">
+            <img src="./assets/alumnai-hero.jpg" alt="ALUMNAS bendruomenės akimirka" />
+            <div class="mentors-hero-overlay">
+              <p class="eyebrow eyebrow-light">ALUMNAI</p>
+              <h1>Tikri žmonės, tikros studijų istorijos</h1>
+              <p class="mentors-lead">
+                Rask studentą, kuris studijuoja tai, kas domina Tave. Greitai ir
+                patogiai rezervuok pokalbį, kad gautum atsakymus į aktualius
+                klausimus.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section mentors-directory-section" id="mentorystes-filtrai">
+        <div class="container mentors-directory-shell">
+          <div class="mentor-status-banner" id="mentor-booking-status" hidden></div>
+
+          <div class="mentor-directory-toolbar">
+            <div class="mentor-filter-grid">
+              <label class="mentor-filter-field" for="mentor-search">
+                <span>Paieška</span>
+                <input
+                  id="mentor-search"
+                  type="search"
+                  placeholder="Vardas, universitetas, kryptis ar klausimas"
+                />
+              </label>
+
+              <label class="mentor-filter-field" for="mentor-program-filter">
+                <span>Kryptis</span>
+                <select id="mentor-program-filter">
+                  <option value="">Visos kryptys</option>
+                </select>
+              </label>
+
+              <label class="mentor-filter-field" for="mentor-university-filter">
+                <span>Universitetas</span>
+                <select id="mentor-university-filter">
+                  <option value="">Visi universitetai</option>
+                </select>
+              </label>
+            </div>
+
+            <div class="mentor-directory-meta">
+              <p class="mentor-results-copy" id="mentor-results-copy">Matomi 4 profiliai</p>
+              <button
+                class="button button-secondary mentor-reset-button"
+                id="mentor-reset-filters"
+                type="button"
+              >
+                Išvalyti filtrus
+              </button>
+            </div>
+          </div>
+
+          <div class="mentor-directory-grid" id="mentoriu-sarasas" aria-live="polite"></div>
+
+          <div class="mentor-empty-state" id="mentor-empty-state" hidden>
+            <h2>Neradome tinkamo profilio</h2>
+            <p>
+              Pabandyk pakeisti filtrus arba ieškoti pagal kitą kryptį, universitetą
+              ar temą.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="booking-modal-shell" id="booking-modal" hidden>
+      <div class="booking-modal-backdrop" id="booking-modal-backdrop"></div>
+      <div
+        class="booking-modal-card"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="booking-modal-title"
+      >
+        <button
+          class="booking-modal-close"
+          id="booking-modal-close"
+          type="button"
+          aria-label="Uždaryti rezervacijos langą"
+        >
+          ×
+        </button>
+        <div id="booking-modal-content"></div>
+      </div>
+    </div>
+
+    <footer class="site-footer" id="kontaktai">
+      <div class="container footer-top">
+        <a class="brand-link footer-brand" href="./index.html#pradžia" aria-label="ALUMNAS pradžia">
+          <span class="brand-logo brand-logo-dark" aria-hidden="true">
+            <img src="./assets/alumnas-logo-clean.png" alt="" />
+          </span>
+          <span class="sr-only">ALUMNAS</span>
+        </a>
+
+        <div class="footer-copy">
+          <p>
+            Jei norisi mažiau spėlionių ir daugiau aiškumo, pradžia gali būti vienas
+            geras pokalbis su žmogumi, kuris jau studijuoja tai, kas domina tave.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <a class="footer-contact-link" href="mailto:info@alumnas.lt">
+            <span class="footer-contact-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M4 7.5 12 13l8-5.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+                <rect x="3.5" y="5.5" width="17" height="13" rx="3" stroke="currentColor" stroke-width="1.8" />
+              </svg>
+            </span>
+            <span>info@alumnas.lt</span>
+          </a>
+          <a
+            class="footer-contact-link"
+            href="https://www.instagram.com/alumnaslt/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span class="footer-contact-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <rect x="4.5" y="4.5" width="15" height="15" rx="4.2" stroke="currentColor" stroke-width="1.8" />
+                <circle cx="12" cy="12" r="3.35" stroke="currentColor" stroke-width="1.8" />
+                <circle cx="17.1" cy="6.9" r="1" fill="currentColor" />
+              </svg>
+            </span>
+            <span>@alumnaslt</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>&copy; <span id="year">2026</span> ALUMNAS</p>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+    <script src="./mentors-fallback-data.js"></script>
+    <script src="./mentors.js"></script>
+  </body>
+</html>

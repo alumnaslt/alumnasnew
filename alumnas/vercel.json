@@ -1,0 +1,10 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/apie-mus", "destination": "/apie-mus.html" },
+    { "source": "/mentoriai", "destination": "/mentoriai.html" },
+    { "source": "/rezervacija-patvirtinta", "destination": "/rezervacija-patvirtinta.html" },
+    { "source": "/rezervacija-atsaukta", "destination": "/rezervacija-atsaukta.html" }
+  ]
+}
