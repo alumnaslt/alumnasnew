@@ -1,0 +1,339 @@
+window.ALUMNAS_MENTOR_SEEDS = [
+  {
+    "id": "aida-lsmu",
+    "name": "Aida",
+    "university": "LSMU",
+    "studyProgram": "Kineziterapija",
+    "studyYear": "2 kursas",
+    "rating": 5,
+    "reviewCount": 0,
+    "duration": 45,
+    "price": 1299,
+    "photo": "./assets/aida-pugaciovaite.JPEG",
+    "facts": [
+      "Visada stengiasi visur atrasti žiupsnelį pozityvo",
+      "Yra komunikabili ir empatiška",
+      "Mėgsta dalintis patirtimi, kuri gali padėti kitiems"
+    ],
+    "tags": [
+      "LSMU",
+      "Kineziterapija",
+      "Studijų pasirinkimas"
+    ],
+    "bio": "Aida atvirai dalijasi savo patirtimi kineziterapijos studijose ir padeda geriau suprasti šios krypties kasdienybę.",
+    "helpWith": [
+      "Kineziterapijos studijų kasdienybės aptarimu",
+      "Klausimais apie LSMU ir studijų krypties pasirinkimą",
+      "Asmeninės patirties pasidalijimu prieš stojimą"
+    ]
+  },
+  {
+    "id": "ugnius-lsmu",
+    "name": "Ugnius",
+    "university": "LSMU",
+    "studyProgram": "Medicina",
+    "studyYear": "3 kursas",
+    "rating": 5,
+    "reviewCount": 0,
+    "duration": 45,
+    "price": 1299,
+    "photo": "./assets/ugnius.jpg",
+    "facts": [
+      "Derina dvi studijas ir du darbus, vienas iš jų - GMP",
+      "Nemėgsta stovėti vietoje ir mėgsta veikti keliais frontais",
+      "Net ir intensyviame tempe randa laiko kelionėms ir draugams"
+    ],
+    "tags": [
+      "LSMU",
+      "Medicina",
+      "GMP"
+    ],
+    "bio": "Ugnius dalijasi, kaip atrodo medicinos studijos, intensyvus tempas ir studijų derinimas su darbu.",
+    "helpWith": [
+      "Medicinos studijų realybės aptarimu",
+      "Klausimais apie studijų ir darbo derinimą",
+      "Kasdienybės LSMU medicinoje supratimu"
+    ]
+  },
+  {
+    "id": "naglis-mru",
+    "name": "Naglis",
+    "university": "MRU",
+    "studyProgram": "Psichologija",
+    "studyYear": "2 kursas",
+    "rating": 5,
+    "reviewCount": 0,
+    "duration": 45,
+    "price": 1299,
+    "photo": "./assets/naglis-grigas.jpeg",
+    "facts": [
+      "Šokiais užsiima apie 8 metus ir negali gyventi be muzikos",
+      "MRU Studentų atstovybėje buvo administratorius ir LSP koordinatorius",
+      "Yra atlikęs nuolatinę privalomąją pradinę karo tarnybą"
+    ],
+    "tags": [
+      "MRU",
+      "Psichologija",
+      "Studentų atstovybė"
+    ],
+    "bio": "Naglis dalijasi psichologijos studijų patirtimi, universiteto veiklomis ir tuo, kaip atrodo aktyvus studentiškas gyvenimas.",
+    "helpWith": [
+      "Psichologijos studijų kasdienybės aptarimu",
+      "Klausimais apie MRU ir studentiškas veiklas",
+      "Asmeninės patirties pasidalijimu prieš stojimą"
+    ]
+  },
+  {
+    "id": "milita-vu",
+    "name": "Milita",
+    "university": "VU",
+    "studyProgram": "Teisė",
+    "studyYear": "3 kursas",
+    "rating": 5,
+    "reviewCount": 0,
+    "duration": 45,
+    "price": 1299,
+    "photo": "./assets/milita-karal.jpg",
+    "facts": [
+      "Nuo pirmo kurso aktyviai veikia Vilniaus universiteto studentų atstovybėje",
+      "Siekia pažinti ne tik akademinę pusę, bet ir visas studento gyvenimo galimybes",
+      "Nori sulaužyti mitus apie teisininkus ir parodyti, kaip studijos atrodo iš tikrųjų"
+    ],
+    "tags": [
+      "VU",
+      "Teisė",
+      "Studentų atstovybė"
+    ],
+    "bio": "Milita dalijasi teisės studijų realybe, studentiškomis veiklomis ir tuo, kaip atrodo gyvenimas universitete už paskaitų ribų.",
+    "helpWith": [
+      "Teisės studijų kasdienybės aptarimu",
+      "Klausimais apie VU ir studentiškas veiklas",
+      "Mitų apie teisės studijas paneigimu"
+    ]
+  },
+  {
+    "id": "indre-lsmu",
+    "name": "Indrė",
+    "university": "LSMU",
+    "studyProgram": "Kineziterapija",
+    "studyYear": "2 kursas",
+    "rating": 5,
+    "reviewCount": 0,
+    "duration": 45,
+    "price": 1299,
+    "photo": "./assets/indre-bartkeviciut.jpg",
+    "facts": [
+      "Kasdien derina studijas su darbu, sportu ir muzika",
+      "Išmoko planuoti laiką taip, kad nereikėtų atsisakyti svarbių dalykų",
+      "Gali papasakoti ne tik apie studijų tvarką, bet ir kaip viską suderinti"
+    ],
+    "tags": [
+      "LSMU",
+      "Kineziterapija",
+      "Laiko planavimas"
+    ],
+    "bio": "Indrė dalijasi kineziterapijos studijų kasdienybe ir tuo, kaip suderinti studijas su darbu bei aktyviu gyvenimu.",
+    "helpWith": [
+      "Kineziterapijos studijų kasdienybės aptarimu",
+      "Klausimais apie studijų ir darbo derinimą",
+      "Laiko planavimo patarimais studentui"
+    ]
+  }
+];
+window.ALUMNAS_SLOT_BLUEPRINTS = {
+  "aida-lsmu": [
+    {
+      "dayOffset": 1,
+      "times": [
+        "18:40",
+        "19:40"
+      ]
+    },
+    {
+      "dayOffset": 2,
+      "times": [
+        "13:00",
+        "14:00",
+        "15:00"
+      ]
+    },
+    {
+      "dayOffset": 3,
+      "times": [
+        "13:00",
+        "14:00",
+        "15:00",
+        "20:30"
+      ]
+    },
+    {
+      "dayOffset": 4,
+      "times": [
+        "13:00",
+        "14:00",
+        "15:00",
+        "16:00"
+      ]
+    },
+    {
+      "dayOffset": 5,
+      "times": [
+        "18:30",
+        "19:30"
+      ]
+    },
+    {
+      "dayOffset": 7,
+      "times": [
+        "10:00",
+        "12:00",
+        "14:00",
+        "16:00",
+        "18:00"
+      ]
+    }
+  ],
+  "ugnius-lsmu": [
+    {
+      "dayOffset": 1,
+      "times": [
+        "20:00"
+      ]
+    },
+    {
+      "dayOffset": 2,
+      "times": [
+        "15:00",
+        "15:45",
+        "19:30",
+        "20:15"
+      ]
+    },
+    {
+      "dayOffset": 4,
+      "times": [
+        "18:00",
+        "19:00",
+        "20:00"
+      ]
+    },
+    {
+      "dayOffset": 8,
+      "times": [
+        "10:00",
+        "12:00",
+        "14:00",
+        "16:00",
+        "18:00"
+      ]
+    },
+    {
+      "dayOffset": 9,
+      "times": [
+        "09:00",
+        "10:00",
+        "11:00"
+      ]
+    },
+    {
+      "dayOffset": 10,
+      "times": [
+        "10:00",
+        "12:00",
+        "14:00",
+        "16:00",
+        "18:00"
+      ]
+    },
+    {
+      "dayOffset": 12,
+      "times": [
+        "12:00",
+        "14:00",
+        "16:00",
+        "18:00",
+        "20:00"
+      ]
+    }
+  ],
+  "naglis-mru": [
+    {
+      "dayOffset": 1,
+      "times": [
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "dayOffset": 2,
+      "times": [
+        "18:00",
+        "18:45",
+        "19:30"
+      ]
+    },
+    {
+      "dayOffset": 3,
+      "times": [
+        "14:00",
+        "14:45"
+      ]
+    },
+    {
+      "dayOffset": 4,
+      "times": [
+        "19:30",
+        "20:15"
+      ]
+    },
+    {
+      "dayOffset": 10,
+      "times": [
+        "16:00"
+      ]
+    },
+    {
+      "dayOffset": 11,
+      "times": [
+        "21:00"
+      ]
+    },
+    {
+      "dayOffset": 12,
+      "times": [
+        "17:00",
+        "18:00",
+        "19:00"
+      ]
+    }
+  ],
+  "milita-vu": [
+    {
+      "dayOffset": 3,
+      "times": [
+        "20:00"
+      ]
+    }
+  ],
+  "indre-lsmu": [
+    {
+      "dayOffset": 1,
+      "times": [
+        "19:00"
+      ]
+    },
+    {
+      "dayOffset": 2,
+      "times": [
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "dayOffset": 4,
+      "times": [
+        "16:00"
+      ]
+    }
+  ]
+};
