@@ -138,6 +138,90 @@ window.ALUMNAS_MENTOR_SEEDS = [
       "Klausimais apie studijų ir darbo derinimą",
       "Laiko planavimo patarimais studentui"
     ]
+  },
+  {
+    "id": "rokas-ism",
+    "name": "Rokas",
+    "university": "ISM",
+    "studyProgram": "Finansai",
+    "studyYear": "3 kursas",
+    "rating": 5,
+    "reviewCount": 0,
+    "duration": 45,
+    "price": 1299,
+    "photo": "./assets/rokas-dambrauskas.png",
+    "facts": [
+      "Aktyvus alumnas VU studentų investiciniame fonde",
+      "Iki lietuvių VBE šimtuko pritrūko tik 1 balo",
+      "Tiki, kad svarbiam sprendimui verta skirti daugiau laiko nei rinktis tai, kas pirmiausia šauna į galvą"
+    ],
+    "tags": [
+      "ISM",
+      "Finansai",
+      "Investavimas"
+    ],
+    "bio": "Rokas dalijasi finansų studijų patirtimi, investavimo aplinka ir tuo, kaip ramiai bei apgalvotai rinktis studijų kryptį.",
+    "helpWith": [
+      "Klausimais apie finansų studijas ISM universitete",
+      "Studijų krypties pasirinkimo apsvarstymu",
+      "Investavimo ir studentiškų veiklų aptarimu"
+    ]
+  },
+  {
+    "id": "meda-vda",
+    "name": "Meda",
+    "university": "VDA Kauno fakultetas",
+    "studyProgram": "Grafinis dizainas",
+    "studyYear": "3 kursas",
+    "rating": 5,
+    "reviewCount": 0,
+    "duration": 45,
+    "price": 1299,
+    "photo": "./assets/meda-grafinis-dizainas.jpeg",
+    "facts": [
+      "Nors mokykloje geriausiai sekėsi lietuvių ir anglų kalbos, šiuo metu dirba matematikos korepetitore",
+      "Neseniai pradėjo žaisti tenisą ir tai tapo viena mėgstamiausių veiklų",
+      "Domisi perdirbta mada, siuva, neria ir senus rūbus paverčia naujais gaminiais"
+    ],
+    "tags": [
+      "VDA",
+      "Grafinis dizainas",
+      "Kūryba"
+    ],
+    "bio": "Meda dalijasi grafinio dizaino studijų kasdienybe, kūrybiniu keliu ir tuo, kaip ieškoti savęs tarp skirtingų stiprybių.",
+    "helpWith": [
+      "Klausimais apie grafinio dizaino studijas VDA",
+      "Kūrybinio kelio ir studijų pasirinkimo aptarimu",
+      "Asmeninės patirties pasidalijimu prieš stojimą"
+    ]
+  },
+  {
+    "id": "ugne-vdu",
+    "name": "Ugnė",
+    "university": "VDU",
+    "studyProgram": "Viešoji komunikacija",
+    "studyYear": "1 kursas",
+    "rating": 5,
+    "reviewCount": 0,
+    "duration": 45,
+    "price": 1299,
+    "photo": "./assets/ugne-viesoji-komunikacija.jpeg",
+    "facts": [
+      "Domisi istorija",
+      "Klasikinė knyga yra neatsiejama jos kasdienybės dalis",
+      "Savo energiją išlieja teniso aikštelėje"
+    ],
+    "tags": [
+      "VDU",
+      "Viešoji komunikacija",
+      "Žurnalistika"
+    ],
+    "bio": "Ugnė dalijasi viešosios komunikacijos studijų pradžia, pasakoja apie skirtumus tarp viešųjų ryšių ir žurnalistikos bei padeda geriau suprasti kryptį.",
+    "helpWith": [
+      "Klausimais apie viešosios komunikacijos studijas VDU",
+      "Viešųjų ryšių ir žurnalistikos skirtumų aptarimu",
+      "Pirmo kurso studentiškos patirties pasidalijimu"
+    ]
   }
 ];
 window.ALUMNAS_SLOT_BLUEPRINTS = {
@@ -333,6 +417,162 @@ window.ALUMNAS_SLOT_BLUEPRINTS = {
       "dayOffset": 4,
       "times": [
         "16:00"
+      ]
+    }
+  ],
+  "rokas-ism": [
+    {
+      "dayOffset": 1,
+      "times": [
+        "18:00",
+        "19:00",
+        "20:00"
+      ]
+    },
+    {
+      "dayOffset": 2,
+      "times": [
+        "16:00",
+        "17:00"
+      ]
+    },
+    {
+      "dayOffset": 3,
+      "times": [
+        "19:00",
+        "20:00"
+      ]
+    },
+    {
+      "dayOffset": 5,
+      "times": [
+        "09:00",
+        "10:00",
+        "11:00"
+      ]
+    }
+  ],
+  "meda-vda": [
+    {
+      "dayOffset": 1,
+      "times": [
+        "19:00",
+        "20:00",
+        "21:00"
+      ]
+    },
+    {
+      "dayOffset": 6,
+      "times": [
+        "11:00",
+        "12:00",
+        "13:00",
+        "14:00",
+        "15:00"
+      ]
+    },
+    {
+      "dayOffset": 8,
+      "times": [
+        "19:00",
+        "20:00",
+        "21:00"
+      ]
+    },
+    {
+      "dayOffset": 13,
+      "times": [
+        "11:00",
+        "12:00",
+        "13:00",
+        "14:00",
+        "15:00"
+      ]
+    }
+  ],
+  "ugne-vdu": [
+    {
+      "dayOffset": 1,
+      "times": [
+        "21:00"
+      ]
+    },
+    {
+      "dayOffset": 2,
+      "times": [
+        "21:00"
+      ]
+    },
+    {
+      "dayOffset": 3,
+      "times": [
+        "21:00"
+      ]
+    },
+    {
+      "dayOffset": 4,
+      "times": [
+        "21:00"
+      ]
+    },
+    {
+      "dayOffset": 5,
+      "times": [
+        "21:00"
+      ]
+    },
+    {
+      "dayOffset": 6,
+      "times": [
+        "21:00"
+      ]
+    },
+    {
+      "dayOffset": 7,
+      "times": [
+        "21:00"
+      ]
+    },
+    {
+      "dayOffset": 8,
+      "times": [
+        "21:00"
+      ]
+    },
+    {
+      "dayOffset": 9,
+      "times": [
+        "21:00"
+      ]
+    },
+    {
+      "dayOffset": 10,
+      "times": [
+        "21:00"
+      ]
+    },
+    {
+      "dayOffset": 11,
+      "times": [
+        "21:00"
+      ]
+    },
+    {
+      "dayOffset": 12,
+      "times": [
+        "21:00"
+      ]
+    },
+    {
+      "dayOffset": 13,
+      "times": [
+        "21:00"
+      ]
+    },
+    {
+      "dayOffset": 14,
+      "times": [
+        "21:00"
       ]
     }
   ]
