@@ -1,6 +1,48 @@
 const { methodNotAllowed, readRawBody, sendJson } = require("../lib/http");
+const { sendAdminBookingEmail, sendStudentBookingEmail } = require("../lib/email");
 const { verifyStripeSignature } = require("../lib/stripe");
-const { markBookingPaid, releaseBookingHold } = require("../lib/store");
+const {
+  getBookingWithRelations,
+  markBookingEmailsSent,
+  markBookingPaid,
+  releaseBookingHold
+} = require("../lib/store");
+
+async function sendBookingEmailsIfNeeded(sessionId) {
+  const result = await getBookingWithRelations({
+    sessionId
+  });
+
+  if (!result || !result.booking || result.booking.paymentStatus !== "paid") {
+    return;
+  }
+
+  const now = new Date().toISOString();
+  const updates = {};
+
+  if (!result.booking.adminEmailSentAt) {
+    const adminSent = await sendAdminBookingEmail(result);
+
+    if (adminSent) {
+      updates.adminEmailSentAt = now;
+    }
+  }
+
+  if (!result.booking.studentEmailSentAt) {
+    const studentSent = await sendStudentBookingEmail(result);
+
+    if (studentSent) {
+      updates.studentEmailSentAt = now;
+    }
+  }
+
+  if (updates.adminEmailSentAt || updates.studentEmailSentAt) {
+    await markBookingEmailsSent({
+      sessionId,
+      ...updates
+    });
+  }
+}
 
 module.exports = async function stripeWebhookHandler(req, res) {
   if (req.method !== "POST") {
@@ -34,6 +76,12 @@ module.exports = async function stripeWebhookHandler(req, res) {
         sessionId: eventObject.id,
         paymentIntentId: eventObject.payment_intent || null
       });
+
+      try {
+        await sendBookingEmailsIfNeeded(eventObject.id);
+      } catch (error) {
+        console.error("Nepavyko išsiųsti rezervacijos laiškų.", error);
+      }
     }
 
     if (event.type === "checkout.session.expired" && eventObject && eventObject.id) {
