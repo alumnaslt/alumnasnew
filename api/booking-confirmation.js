@@ -1,4 +1,5 @@
 const { getQueryParam, methodNotAllowed, sendJson } = require("../lib/http");
+const { ensureBookingFollowup } = require("../lib/booking-followup");
 const { getCheckoutSession } = require("../lib/stripe");
 const { getBookingWithRelations, markBookingPaid } = require("../lib/store");
 
@@ -47,6 +48,20 @@ module.exports = async function bookingConfirmationHandler(req, res) {
         result = await getBookingWithRelations({
           sessionId
         });
+      }
+    }
+
+    // Jei webhookas nebuvo pristatytas arba follow-up tada nesuveikė,
+    // success puslapis dar kartą saugiai pabando sukurti Meet ir išsiųsti laiškus.
+    if (sessionId && result.booking.paymentStatus === "paid") {
+      try {
+        const followupResult = await ensureBookingFollowup(sessionId);
+
+        if (followupResult) {
+          result = followupResult;
+        }
+      } catch (error) {
+        console.error("Nepavyko užbaigti rezervacijos follow-up veiksmų success lange.", error);
       }
     }
 
