@@ -594,48 +594,19 @@ window.ALUMNAS_SLOT_BLUEPRINTS = {
   ],
   "naglis-mru": [
     {
-      "dayOffset": 1,
-      "times": [
-        "16:00",
-        "17:00"
-      ]
-    },
-    {
-      "dayOffset": 2,
-      "times": [
-        "18:00",
-        "18:45",
-        "19:30"
-      ]
-    },
-    {
-      "dayOffset": 3,
-      "times": [
-        "14:00",
-        "14:45"
-      ]
-    },
-    {
-      "dayOffset": 4,
-      "times": [
-        "19:30",
-        "20:15"
-      ]
-    },
-    {
-      "dayOffset": 10,
+      "dayOffset": 5,
       "times": [
         "16:00"
       ]
     },
     {
-      "dayOffset": 11,
+      "dayOffset": 6,
       "times": [
         "21:00"
       ]
     },
     {
-      "dayOffset": 12,
+      "dayOffset": 7,
       "times": [
         "17:00",
         "18:00",
@@ -675,28 +646,6 @@ window.ALUMNAS_SLOT_BLUEPRINTS = {
   "rokas-ism": [
     {
       "dayOffset": 1,
-      "times": [
-        "18:00",
-        "19:00",
-        "20:00"
-      ]
-    },
-    {
-      "dayOffset": 2,
-      "times": [
-        "16:00",
-        "17:00"
-      ]
-    },
-    {
-      "dayOffset": 3,
-      "times": [
-        "19:00",
-        "20:00"
-      ]
-    },
-    {
-      "dayOffset": 5,
       "times": [
         "09:00",
         "10:00",
@@ -830,6 +779,19 @@ window.ALUMNAS_SLOT_BLUEPRINTS = {
   ],
   "rolandas-vdu": [
     {
+      "dayOffset": 4,
+      "times": [
+        "12:00",
+        "13:00",
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00",
+        "18:00",
+        "19:00"
+      ]
+    },
+    {
       "dayOffset": 5,
       "times": [
         "12:00",
@@ -856,7 +818,7 @@ window.ALUMNAS_SLOT_BLUEPRINTS = {
       ]
     },
     {
-      "dayOffset": 7,
+      "dayOffset": 8,
       "times": [
         "12:00",
         "13:00",
@@ -882,47 +844,43 @@ window.ALUMNAS_SLOT_BLUEPRINTS = {
       ]
     },
     {
-      "dayOffset": 10,
-      "times": [
-        "12:00",
-        "13:00",
-        "14:00",
-        "15:00",
-        "16:00",
-        "17:00",
-        "18:00",
-        "19:00"
-      ]
-    },
-    {
-      "dayOffset": 12,
+      "dayOffset": 11,
       "times": [
         "15:00"
       ]
     },
     {
-      "dayOffset": 14,
+      "dayOffset": 13,
       "times": [
         "15:00"
       ]
     },
     {
-      "dayOffset": 18,
+      "dayOffset": 17,
       "times": [
         "12:00",
         "13:00",
         "14:00",
+        "15:00"
+      ]
+    },
+    {
+      "dayOffset": 20,
+      "times": [
         "15:00"
       ]
     },
     {
       "dayOffset": 21,
       "times": [
+        "12:00",
+        "13:00",
+        "14:00",
         "15:00"
       ]
     },
     {
-      "dayOffset": 22,
+      "dayOffset": 24,
       "times": [
         "12:00",
         "13:00",
@@ -933,22 +891,13 @@ window.ALUMNAS_SLOT_BLUEPRINTS = {
     {
       "dayOffset": 25,
       "times": [
-        "12:00",
-        "13:00",
-        "14:00",
-        "15:00"
-      ]
-    },
-    {
-      "dayOffset": 26,
-      "times": [
         "15:00"
       ]
     }
   ],
   "gabija-lsmu": [
     {
-      "dayOffset": 1,
+      "dayOffset": 0,
       "times": [
         "18:00",
         "19:00",
@@ -957,7 +906,7 @@ window.ALUMNAS_SLOT_BLUEPRINTS = {
       ]
     },
     {
-      "dayOffset": 5,
+      "dayOffset": 4,
       "times": [
         "12:00",
         "13:00",
@@ -966,7 +915,7 @@ window.ALUMNAS_SLOT_BLUEPRINTS = {
       ]
     },
     {
-      "dayOffset": 6,
+      "dayOffset": 5,
       "times": [
         "15:00",
         "16:00",
@@ -975,14 +924,14 @@ window.ALUMNAS_SLOT_BLUEPRINTS = {
       ]
     },
     {
-      "dayOffset": 8,
+      "dayOffset": 7,
       "times": [
         "20:00",
         "21:00"
       ]
     },
     {
-      "dayOffset": 12,
+      "dayOffset": 11,
       "times": [
         "12:00",
         "13:00",
@@ -991,7 +940,7 @@ window.ALUMNAS_SLOT_BLUEPRINTS = {
       ]
     },
     {
-      "dayOffset": 13,
+      "dayOffset": 12,
       "times": [
         "14:00",
         "15:00",
@@ -1053,13 +1002,13 @@ window.ALUMNAS_SLOT_BLUEPRINTS = {
   ],
   "rasa-lmta": [
     {
-      "dayOffset": 1,
+      "dayOffset": 0,
       "times": [
         "16:00"
       ]
     },
     {
-      "dayOffset": 5,
+      "dayOffset": 4,
       "times": [
         "19:00",
         "19:45",
@@ -1067,14 +1016,14 @@ window.ALUMNAS_SLOT_BLUEPRINTS = {
       ]
     },
     {
-      "dayOffset": 6,
+      "dayOffset": 5,
       "times": [
         "18:00",
         "18:45"
       ]
     },
     {
-      "dayOffset": 7,
+      "dayOffset": 6,
       "times": [
         "19:00",
         "19:45",
@@ -1082,7 +1031,7 @@ window.ALUMNAS_SLOT_BLUEPRINTS = {
       ]
     },
     {
-      "dayOffset": 8,
+      "dayOffset": 7,
       "times": [
         "12:00",
         "12:45",
@@ -1092,7 +1041,7 @@ window.ALUMNAS_SLOT_BLUEPRINTS = {
       ]
     },
     {
-      "dayOffset": 9,
+      "dayOffset": 8,
       "times": [
         "10:00",
         "10:45"
@@ -1100,6 +1049,20 @@ window.ALUMNAS_SLOT_BLUEPRINTS = {
     }
   ],
   "nojus-vdu": [
+    {
+      "dayOffset": 3,
+      "times": [
+        "08:00",
+        "09:00",
+        "10:00",
+        "11:00",
+        "12:00",
+        "13:00",
+        "14:00",
+        "15:00",
+        "16:00"
+      ]
+    },
     {
       "dayOffset": 4,
       "times": [
@@ -1157,7 +1120,7 @@ window.ALUMNAS_SLOT_BLUEPRINTS = {
       ]
     },
     {
-      "dayOffset": 8,
+      "dayOffset": 10,
       "times": [
         "08:00",
         "09:00",
@@ -1225,25 +1188,11 @@ window.ALUMNAS_SLOT_BLUEPRINTS = {
         "15:00",
         "16:00"
       ]
-    },
-    {
-      "dayOffset": 15,
-      "times": [
-        "08:00",
-        "09:00",
-        "10:00",
-        "11:00",
-        "12:00",
-        "13:00",
-        "14:00",
-        "15:00",
-        "16:00"
-      ]
     }
   ],
   "odeta-viko": [
     {
-      "dayOffset": 8,
+      "dayOffset": 7,
       "times": [
         "16:00",
         "17:00",
@@ -1252,11 +1201,18 @@ window.ALUMNAS_SLOT_BLUEPRINTS = {
       ]
     },
     {
-      "dayOffset": 9,
+      "dayOffset": 8,
       "times": [
         "15:00",
         "16:00",
         "17:00"
+      ]
+    },
+    {
+      "dayOffset": 12,
+      "times": [
+        "15:00",
+        "16:00"
       ]
     },
     {
@@ -1269,13 +1225,6 @@ window.ALUMNAS_SLOT_BLUEPRINTS = {
     {
       "dayOffset": 14,
       "times": [
-        "15:00",
-        "16:00"
-      ]
-    },
-    {
-      "dayOffset": 15,
-      "times": [
         "16:00",
         "17:00",
         "18:00",
@@ -1283,7 +1232,7 @@ window.ALUMNAS_SLOT_BLUEPRINTS = {
       ]
     },
     {
-      "dayOffset": 16,
+      "dayOffset": 15,
       "times": [
         "15:00",
         "16:00",
@@ -1293,13 +1242,22 @@ window.ALUMNAS_SLOT_BLUEPRINTS = {
   ],
   "leja-lsmu": [
     {
-      "dayOffset": 4,
+      "dayOffset": 3,
       "times": [
         "20:00"
       ]
     }
   ],
   "ieva-marija-ism": [
+    {
+      "dayOffset": 5,
+      "times": [
+        "16:00",
+        "17:00",
+        "18:00",
+        "19:00"
+      ]
+    },
     {
       "dayOffset": 6,
       "times": [
@@ -1310,8 +1268,11 @@ window.ALUMNAS_SLOT_BLUEPRINTS = {
       ]
     },
     {
-      "dayOffset": 7,
+      "dayOffset": 8,
       "times": [
+        "13:00",
+        "14:00",
+        "15:00",
         "16:00",
         "17:00",
         "18:00",
@@ -1333,21 +1294,20 @@ window.ALUMNAS_SLOT_BLUEPRINTS = {
     {
       "dayOffset": 10,
       "times": [
+        "12:00",
         "13:00",
+        "14:00"
+      ]
+    },
+    {
+      "dayOffset": 11,
+      "times": [
         "14:00",
         "15:00",
         "16:00",
         "17:00",
         "18:00",
         "19:00"
-      ]
-    },
-    {
-      "dayOffset": 11,
-      "times": [
-        "12:00",
-        "13:00",
-        "14:00"
       ]
     },
     {
@@ -1364,19 +1324,20 @@ window.ALUMNAS_SLOT_BLUEPRINTS = {
     {
       "dayOffset": 13,
       "times": [
+        "13:00",
+        "14:00"
+      ]
+    },
+    {
+      "dayOffset": 15,
+      "times": [
         "14:00",
         "15:00",
         "16:00",
         "17:00",
         "18:00",
-        "19:00"
-      ]
-    },
-    {
-      "dayOffset": 14,
-      "times": [
-        "13:00",
-        "14:00"
+        "19:00",
+        "20:00"
       ]
     },
     {
@@ -1390,37 +1351,19 @@ window.ALUMNAS_SLOT_BLUEPRINTS = {
         "19:00",
         "20:00"
       ]
-    },
-    {
-      "dayOffset": 17,
-      "times": [
-        "14:00",
-        "15:00",
-        "16:00",
-        "17:00",
-        "18:00",
-        "19:00",
-        "20:00"
-      ]
     }
   ],
   "viktorija-ism": [
     {
-      "dayOffset": 0,
+      "dayOffset": 4,
       "times": [
+        "17:00",
         "18:00"
       ]
     },
     {
       "dayOffset": 5,
       "times": [
-        "17:00",
-        "18:00"
-      ]
-    },
-    {
-      "dayOffset": 6,
-      "times": [
         "18:00",
         "19:00",
         "20:00",
@@ -1428,20 +1371,20 @@ window.ALUMNAS_SLOT_BLUEPRINTS = {
       ]
     },
     {
-      "dayOffset": 7,
+      "dayOffset": 6,
       "times": [
         "18:00"
       ]
     },
     {
-      "dayOffset": 12,
+      "dayOffset": 11,
       "times": [
         "17:30",
         "18:15"
       ]
     },
     {
-      "dayOffset": 13,
+      "dayOffset": 12,
       "times": [
         "18:00",
         "19:00",
@@ -1450,7 +1393,7 @@ window.ALUMNAS_SLOT_BLUEPRINTS = {
       ]
     },
     {
-      "dayOffset": 14,
+      "dayOffset": 13,
       "times": [
         "18:00"
       ]
