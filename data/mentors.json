@@ -474,5 +474,117 @@
       "ISM kasdienybės ir studijų pasirinkimo aptarimu",
       "Asmeninės patirties pasidalijimu prieš stojimą"
     ]
+  },
+  {
+    "id": "kamile-viko",
+    "name": "Kamilė",
+    "university": "Vilniaus kolegija",
+    "studyProgram": "Muzikinis teatras",
+    "studyYear": "1 kursas",
+    "rating": 5,
+    "reviewCount": 0,
+    "duration": 45,
+    "price": 1299,
+    "photo": "./assets/kamile-muzikinisteatras.jpg",
+    "facts": [
+      "Yra komunikabili ir drąsi",
+      "Bando išlikti pozityvi net kai labai nesiseka",
+      "Gyvena muzika ir teatru"
+    ],
+    "tags": [
+      "Vilniaus kolegija",
+      "Muzikinis teatras",
+      "Scena"
+    ],
+    "bio": "Kamilė dalijasi muzikinio teatro studijų patirtimi ir pasakoja, kaip atrodo kūrybinė kasdienybė scenoje bei už jos ribų.",
+    "helpWith": [
+      "Klausimais apie muzikinio teatro studijas",
+      "Kūrybinės krypties pasirinkimo aptarimu",
+      "Studentiškos kasdienybės pasidalijimu"
+    ]
+  },
+  {
+    "id": "ula-vu",
+    "name": "Ūla",
+    "university": "VU",
+    "studyProgram": "Globali rinkodara",
+    "studyYear": "1 kursas",
+    "rating": 5,
+    "reviewCount": 0,
+    "duration": 45,
+    "price": 1299,
+    "photo": "./assets/ula-globalirinkodara.jpg",
+    "facts": [
+      "Plaukimą lanko jau 12 metų",
+      "Yra Vilniaus universiteto ekonomikos ir verslo administravimo fakulteto ambasadorė",
+      "Buvo tavo vietoje ir yra pasiruošusi padėti visais rūpimais klausimais"
+    ],
+    "tags": [
+      "VU",
+      "Globali rinkodara",
+      "Ambasadorystė"
+    ],
+    "bio": "Ūla dalijasi globalios rinkodaros studijų patirtimi ir padeda drąsiau suprasti, kaip atrodo pirmi žingsniai šioje kryptyje.",
+    "helpWith": [
+      "Klausimais apie globalios rinkodaros studijas VU",
+      "Pirmo kurso studijų realybės aptarimu",
+      "Asmeninės patirties pasidalijimu prieš stojimą"
+    ]
+  },
+  {
+    "id": "migle-lsmu",
+    "name": "Miglė",
+    "university": "LSMU",
+    "studyProgram": "Gyvūnų ir žmogaus sąveika",
+    "studyYear": "2 kursas",
+    "rating": 5,
+    "reviewCount": 0,
+    "duration": 45,
+    "price": 1299,
+    "photo": "./assets/migle-gyvunuzmogaus-saveikalsmu.jpg",
+    "facts": [
+      "Šiuo metu turi 10 kačių ir 5 šunis",
+      "Laisvalaikį mėgsta leisti keliaudama",
+      "Skautai yra svarbi jos gyvenimo dalis"
+    ],
+    "tags": [
+      "LSMU",
+      "Gyvūnų ir žmogaus sąveika",
+      "Gyvūnai"
+    ],
+    "bio": "Miglė dalijasi gyvūnų ir žmogaus sąveikos studijų patirtimi ir padeda geriau suprasti šią unikalią kryptį.",
+    "helpWith": [
+      "Klausimais apie gyvūnų ir žmogaus sąveikos studijas",
+      "LSMU studijų krypties pasirinkimo aptarimu",
+      "Asmeninės patirties pasidalijimu prieš stojimą"
+    ]
+  },
+  {
+    "id": "kamile-vu",
+    "name": "Kamilė",
+    "university": "VU",
+    "studyProgram": "Politikos mokslai",
+    "studyYear": "1 kursas",
+    "rating": 5,
+    "reviewCount": 0,
+    "duration": 45,
+    "price": 1299,
+    "photo": "./assets/kamile-politikosmokslaivu.jpg",
+    "facts": [
+      "Turi padykusį katiną vardu Žirnis",
+      "Be galo mėgsta pabūti prie jūros",
+      "Turi 6 tatuiruotes ir nemano, kad tai pabaiga"
+    ],
+    "tags": [
+      "VU",
+      "Politikos mokslai",
+      "Socialiniai mokslai"
+    ],
+    "bio": "Kamilė dalijasi politikos mokslų studijų pradžios patirtimi ir padeda geriau suprasti, kaip atrodo ši kryptis iš arti.",
+    "helpWith": [
+      "Klausimais apie politikos mokslų studijas VU",
+      "Studijų krypties pasirinkimo aptarimu",
+      "Pirmo kurso studentiškos patirties pasidalijimu"
+    ]
   }
 ]
