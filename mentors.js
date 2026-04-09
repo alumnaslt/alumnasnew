@@ -127,6 +127,29 @@ function formatLongDate(dateString) {
   }).format(new Date(`${dateString}T12:00:00`));
 }
 
+function getAvailabilityContactSubject(mentor) {
+  return `Klausimas dėl ${mentor.name} konsultacijos laikų`;
+}
+
+function getAvailabilityContactBody(mentor) {
+  return [
+    "Sveiki,",
+    "",
+    `Norėčiau pasiteirauti dėl ${mentor.name} (${mentor.university} ${mentor.studyProgram}) laisvų laikų konsultacijai.`,
+    "",
+    "Ačiū"
+  ].join("\n");
+}
+
+function getAvailabilityContactUrl(mentor) {
+  const params = new URLSearchParams({
+    subject: getAvailabilityContactSubject(mentor),
+    body: getAvailabilityContactBody(mentor)
+  });
+
+  return `mailto:info@alumnas.lt?${params.toString()}`;
+}
+
 function readDirectoryStateFromUrl() {
   const params = new URLSearchParams(window.location.search);
 
@@ -263,7 +286,29 @@ function renderMentors() {
       const tagsMarkup = mentor.tags
         .map((tag) => `<span class="mentor-card-tag">${escapeHtml(tag)}</span>`)
         .join("");
+      const hasConfiguredAvailability = (mentor.slots || []).length > 0;
       const hasAvailability = getVisibleSlots(mentor).length > 0;
+      const contactUrl = getAvailabilityContactUrl(mentor);
+      const actionMarkup = hasConfiguredAvailability
+        ? `
+            <button
+              class="button button-primary mentor-card-button"
+              type="button"
+              data-book-mentor="${escapeHtml(mentor.id)}"
+              ${hasAvailability ? "" : "disabled"}
+            >
+              ${hasAvailability ? "Rezervuoti laiką" : "Šiuo metu vietų nėra"}
+            </button>
+          `
+        : `
+            <a
+              class="button button-secondary mentor-card-button mentor-card-button-contact"
+              href="${escapeHtml(contactUrl)}"
+              data-contact-mentor="${escapeHtml(mentor.id)}"
+            >
+              Susisiekti dėl mentoriaus laisvų laikų konsultacijai
+            </a>
+          `;
 
       return `
         <article class="mentor-directory-card">
@@ -312,14 +357,7 @@ function renderMentors() {
                   ${tagsMarkup}
                 </div>
 
-                <button
-                  class="button button-primary mentor-card-button"
-                  type="button"
-                  data-book-mentor="${escapeHtml(mentor.id)}"
-                  ${hasAvailability ? "" : "disabled"}
-                >
-                  ${hasAvailability ? "Rezervuoti laiką" : "Šiuo metu vietų nėra"}
-                </button>
+                ${actionMarkup}
               </div>
             </div>
           </div>
@@ -654,6 +692,16 @@ function resetFilters() {
 }
 
 mentorGrid.addEventListener("click", (event) => {
+  const contactTrigger = event.target.closest("[data-contact-mentor]");
+
+  if (contactTrigger) {
+    setStatus(
+      "Apgailestaujame, mentoriaus laikai yra neatnaujinti, todėl norint išvengti nesusipratimų prašome susisiekti su mumis paštu.",
+      "warning"
+    );
+    return;
+  }
+
   const trigger = event.target.closest("[data-book-mentor]");
 
   if (!trigger) {

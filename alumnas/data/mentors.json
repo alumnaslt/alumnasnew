@@ -393,7 +393,7 @@
   },
   {
     "id": "leja-lsmu",
-    "name": "Leja",
+    "name": "Lėja",
     "university": "LSMU",
     "studyProgram": "Veterinarinė medicina",
     "studyYear": "2 kursas",
@@ -585,6 +585,62 @@
       "Klausimais apie politikos mokslų studijas VU",
       "Studijų krypties pasirinkimo aptarimu",
       "Pirmo kurso studentiškos patirties pasidalijimu"
+    ]
+  },
+  {
+    "id": "kamile-lsmu",
+    "name": "Kamilė",
+    "university": "LSMU",
+    "studyProgram": "Kineziterapija",
+    "studyYear": "2 kursas",
+    "rating": 5,
+    "reviewCount": 0,
+    "duration": 45,
+    "price": 1299,
+    "photo": "./assets/kamile-zliobaite-lsmukinezi.jpg",
+    "facts": [
+      "Esu pozityvi ir nuoširdi",
+      "Aktyviai dalyvauju studentų atstovybės veikloje",
+      "Motyvuota pasidalinti studentiška patirtimi ir pagelbėti moksleiviams"
+    ],
+    "tags": [
+      "LSMU",
+      "Kineziterapija",
+      "Studentų atstovybė"
+    ],
+    "bio": "Kamilė dalijasi kineziterapijos studijų kasdienybe ir aktyviu studentišku gyvenimu LSMU.",
+    "helpWith": [
+      "Klausimais apie kineziterapijos studijas LSMU",
+      "Studijų ir studentiškų veiklų derinimo aptarimu",
+      "Asmeninės patirties pasidalijimu prieš stojimą"
+    ]
+  },
+  {
+    "id": "ruta-vdu",
+    "name": "Rūta",
+    "university": "VDU",
+    "studyProgram": "Teisė",
+    "studyYear": "3 kursas",
+    "rating": 5,
+    "reviewCount": 0,
+    "duration": 45,
+    "price": 1299,
+    "photo": "./assets/ruta-teiseIIIvdu.jpg",
+    "facts": [
+      "Studijuoja teisę, bet slaptas hobis yra kurti turinį socialiniams tinklams",
+      "Suits serialą yra peržiūrėjusi bent 3 kartus",
+      "Jos smegenys visada randa priežastį naujam pirkiniui"
+    ],
+    "tags": [
+      "VDU",
+      "Teisė",
+      "Socialiniai tinklai"
+    ],
+    "bio": "Rūta dalijasi teisės studijų patirtimi ir atvirai pasakoja, kaip atrodo studentiškas gyvenimas VDU.",
+    "helpWith": [
+      "Klausimais apie teisės studijas VDU",
+      "Studijų krypties pasirinkimo aptarimu",
+      "Asmeninės patirties pasidalijimu prieš stojimą"
     ]
   }
 ]

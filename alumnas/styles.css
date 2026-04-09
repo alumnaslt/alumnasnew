@@ -219,6 +219,7 @@ ul {
   align-items: stretch;
 }
 
+
 .hero-copy {
   position: relative;
   padding: 4rem;
@@ -1860,6 +1861,13 @@ ul {
 .mentor-card-button {
   min-width: 190px;
   justify-self: start;
+  text-align: center;
+  white-space: normal;
+  line-height: 1.3;
+}
+
+.mentor-card-button-contact {
+  max-width: 290px;
 }
 
 .mentor-empty-state {
