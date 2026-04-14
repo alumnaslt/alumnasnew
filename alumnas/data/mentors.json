@@ -642,5 +642,61 @@
       "Studijų krypties pasirinkimo aptarimu",
       "Asmeninės patirties pasidalijimu prieš stojimą"
     ]
+  },
+  {
+    "id": "egle-vdk",
+    "name": "Eglė",
+    "university": "Vilniaus dizaino kolegija",
+    "studyProgram": "Taikomoji fotografija",
+    "studyYear": "2 kursas",
+    "rating": 5,
+    "reviewCount": 0,
+    "duration": 45,
+    "price": 1299,
+    "photo": "./assets/egle-taikomojifotografija.jpg",
+    "facts": [
+      "Gamta jai yra be galo artima",
+      "Muzika bei poezija yra neatsiejama jos dalis",
+      "Gyvena dėstytojo nuomojamame bute :D"
+    ],
+    "tags": [
+      "Vilniaus dizaino kolegija",
+      "Taikomoji fotografija",
+      "Kūryba"
+    ],
+    "bio": "Eglė dalijasi taikomosios fotografijos studijų kasdienybe, kūrybiniu procesu ir tuo, kaip atrodo mokymasis vizualinėje srityje.",
+    "helpWith": [
+      "Klausimais apie taikomosios fotografijos studijas",
+      "Kūrybinės krypties pasirinkimo aptarimu",
+      "Asmeninės patirties pasidalijimu prieš stojimą"
+    ]
+  },
+  {
+    "id": "adela-viko",
+    "name": "Adela",
+    "university": "Vilniaus kolegija",
+    "studyProgram": "Interjero dizainas",
+    "studyYear": "1 kursas",
+    "rating": 5,
+    "reviewCount": 0,
+    "duration": 45,
+    "price": 1299,
+    "photo": "./assets/adela-interjerodizainas-vilniauskolegija.jpg",
+    "facts": [
+      "Pastebi tai, ko kiti nepastebi",
+      "Mėgsta keliauti, o siela vis grįžta į Italiją",
+      "Vertina nuoširdumą ir tikrumą"
+    ],
+    "tags": [
+      "Vilniaus kolegija",
+      "Interjero dizainas",
+      "Dizainas"
+    ],
+    "bio": "Adela dalijasi interjero dizaino studijų kasdienybe ir padeda geriau suprasti, kaip atrodo ši kūrybinė kryptis Vilniaus kolegijoje.",
+    "helpWith": [
+      "Klausimais apie interjero dizaino studijas",
+      "Kūrybinės krypties pasirinkimo aptarimu",
+      "Studijų kasdienybės Vilniaus kolegijoje supratimu"
+    ]
   }
 ]

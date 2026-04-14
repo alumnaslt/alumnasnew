@@ -51,11 +51,33 @@ function createDateString(dayOffset) {
   return date.toISOString().slice(0, 10);
 }
 
+function resolveTemplateDate(template) {
+  if (template && typeof template.date === "string" && template.date) {
+    return template.date;
+  }
+
+  if (template && Number.isFinite(template.dayOffset)) {
+    return createDateString(template.dayOffset);
+  }
+
+  return "";
+}
+
+function isSlotInFuture(slot) {
+  const slotTimestamp = new Date(`${slot.date}T${slot.time}:00+03:00`).getTime();
+  return Number.isFinite(slotTimestamp) && slotTimestamp >= Date.now();
+}
+
 function buildFallbackMentors(mentorSeeds, slotBlueprints) {
   return mentorSeeds.map((mentor) => {
     const templates = slotBlueprints[mentor.id] || [];
     const slots = templates.flatMap((template) => {
-      const date = createDateString(template.dayOffset);
+      const date = resolveTemplateDate(template);
+
+      if (!date) {
+        return [];
+      }
+
       return template.times.map((time) => ({
         id: `${mentor.id}-${date}-${time.replace(":", "-")}`,
         mentorId: mentor.id,
@@ -209,7 +231,7 @@ function sortSlots(left, right) {
 
 function getVisibleSlots(mentor) {
   return (mentor.slots || [])
-    .filter((slot) => !slot.isBooked)
+    .filter((slot) => !slot.isBooked && isSlotInFuture(slot))
     .sort(sortSlots);
 }
 
@@ -286,7 +308,7 @@ function renderMentors() {
       const tagsMarkup = mentor.tags
         .map((tag) => `<span class="mentor-card-tag">${escapeHtml(tag)}</span>`)
         .join("");
-      const hasConfiguredAvailability = (mentor.slots || []).length > 0;
+      const hasConfiguredAvailability = (mentor.slots || []).some((slot) => isSlotInFuture(slot));
       const hasAvailability = getVisibleSlots(mentor).length > 0;
       const contactUrl = getAvailabilityContactUrl(mentor);
       const actionMarkup = hasConfiguredAvailability
