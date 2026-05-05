@@ -340,6 +340,7 @@ function renderMentors() {
                 class="mentor-card-photo"
                 src="${escapeHtml(mentor.photo)}"
                 alt="${escapeHtml(mentor.name)} portretas"
+                ${mentor.photoPosition ? `style="object-position: ${escapeHtml(mentor.photoPosition)};"` : ""}
               />
             </div>
 

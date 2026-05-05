@@ -8,7 +8,7 @@ window.ALUMNAS_MENTOR_SEEDS = [
     "rating": 5,
     "reviewCount": 0,
     "duration": 45,
-    "price": 1299,
+    "price": 1499,
     "photo": "./assets/aida-pugaciovaite.JPEG",
     "facts": [
       "Visada stengiasi visur atrasti žiupsnelį pozityvo",
@@ -36,7 +36,7 @@ window.ALUMNAS_MENTOR_SEEDS = [
     "rating": 5,
     "reviewCount": 0,
     "duration": 45,
-    "price": 1299,
+    "price": 1499,
     "photo": "./assets/ugnius.jpg",
     "facts": [
       "Derina dvi studijas ir du darbus, vienas iš jų - GMP",
@@ -64,7 +64,7 @@ window.ALUMNAS_MENTOR_SEEDS = [
     "rating": 5,
     "reviewCount": 0,
     "duration": 45,
-    "price": 1299,
+    "price": 1499,
     "photo": "./assets/naglis-grigas.jpeg",
     "facts": [
       "Šokiais užsiima apie 8 metus ir negali gyventi be muzikos",
@@ -92,7 +92,7 @@ window.ALUMNAS_MENTOR_SEEDS = [
     "rating": 5,
     "reviewCount": 0,
     "duration": 45,
-    "price": 1299,
+    "price": 1499,
     "photo": "./assets/milita-karal.jpg",
     "facts": [
       "Nuo pirmo kurso aktyviai veikia Vilniaus universiteto studentų atstovybėje",
@@ -120,7 +120,7 @@ window.ALUMNAS_MENTOR_SEEDS = [
     "rating": 5,
     "reviewCount": 0,
     "duration": 45,
-    "price": 1299,
+    "price": 1499,
     "photo": "./assets/indre-bartkeviciut.jpg",
     "facts": [
       "Kasdien derina studijas su darbu, sportu ir muzika",
@@ -148,7 +148,7 @@ window.ALUMNAS_MENTOR_SEEDS = [
     "rating": 5,
     "reviewCount": 0,
     "duration": 45,
-    "price": 1299,
+    "price": 1499,
     "photo": "./assets/rokas-dambrauskas.png",
     "facts": [
       "Aktyvus alumnas VU studentų investiciniame fonde",
@@ -176,7 +176,7 @@ window.ALUMNAS_MENTOR_SEEDS = [
     "rating": 5,
     "reviewCount": 0,
     "duration": 45,
-    "price": 1299,
+    "price": 1499,
     "photo": "./assets/meda-grafinis-dizainas.jpeg",
     "facts": [
       "Nors mokykloje geriausiai sekėsi lietuvių ir anglų kalbos, šiuo metu dirba matematikos korepetitore",
@@ -204,7 +204,7 @@ window.ALUMNAS_MENTOR_SEEDS = [
     "rating": 5,
     "reviewCount": 0,
     "duration": 45,
-    "price": 1299,
+    "price": 1499,
     "photo": "./assets/ugne-viesoji-komunikacija.jpeg",
     "facts": [
       "Domisi istorija",
@@ -232,7 +232,7 @@ window.ALUMNAS_MENTOR_SEEDS = [
     "rating": 5,
     "reviewCount": 0,
     "duration": 45,
-    "price": 1299,
+    "price": 1499,
     "photo": "./assets/rolandas-vdu.jpg",
     "facts": [
       "Turi katiną vardu Batonas",
@@ -260,7 +260,7 @@ window.ALUMNAS_MENTOR_SEEDS = [
     "rating": 5,
     "reviewCount": 0,
     "duration": 45,
-    "price": 1299,
+    "price": 1499,
     "photo": "./assets/gabija-sakalauskait.jpg",
     "facts": [
       "Derina kineziterapijos studijas, gydomojo masažo mokslus ir darbą",
@@ -288,7 +288,7 @@ window.ALUMNAS_MENTOR_SEEDS = [
     "rating": 5,
     "reviewCount": 0,
     "duration": 45,
-    "price": 1299,
+    "price": 1499,
     "photo": "./assets/austeja-lsmuodontologija.jpg",
     "facts": [
       "Darbą susijusį su specialybe rado jau 1 kurse",
@@ -316,7 +316,7 @@ window.ALUMNAS_MENTOR_SEEDS = [
     "rating": 5,
     "reviewCount": 0,
     "duration": 45,
-    "price": 1299,
+    "price": 1499,
     "photo": "./assets/rasa-sabeckait.jpg",
     "facts": [
       "Šoka daugiau valandų nei miega",
@@ -344,7 +344,7 @@ window.ALUMNAS_MENTOR_SEEDS = [
     "rating": 5,
     "reviewCount": 0,
     "duration": 45,
-    "price": 1299,
+    "price": 1499,
     "photo": "./assets/nojus-marketingasvdu.jpg",
     "facts": [
       "Mėgsta krepšinį ir laisvalaikiu žaidžia jį",
@@ -372,7 +372,7 @@ window.ALUMNAS_MENTOR_SEEDS = [
     "rating": 5,
     "reviewCount": 0,
     "duration": 45,
-    "price": 1299,
+    "price": 1499,
     "photo": "./assets/odeta-ergoterapija.jpg",
     "facts": [
       "Studijuoja ergoterapiją ir ją žavi ši dar daug kam nepažįstama, bet paklausi sritis",
@@ -400,7 +400,7 @@ window.ALUMNAS_MENTOR_SEEDS = [
     "rating": 5,
     "reviewCount": 0,
     "duration": 45,
-    "price": 1299,
+    "price": 1499,
     "photo": "./assets/leja-ft.jpeg",
     "facts": [
       "Jos namuose visada gyvūnų globos centras - nuo antenuotų iki sparnuotų",
@@ -428,7 +428,7 @@ window.ALUMNAS_MENTOR_SEEDS = [
     "rating": 5,
     "reviewCount": 0,
     "duration": 45,
-    "price": 1299,
+    "price": 1499,
     "photo": "./assets/ieva-marija-geceviciute.jpg",
     "facts": [
       "Renginių organizavimas yra jos secret talent",
@@ -456,7 +456,7 @@ window.ALUMNAS_MENTOR_SEEDS = [
     "rating": 5,
     "reviewCount": 0,
     "duration": 45,
-    "price": 1299,
+    "price": 1499,
     "photo": "./assets/viktorija-ism.jpg",
     "facts": [
       "14 metų skyrė šokių pasauliui",
@@ -484,7 +484,7 @@ window.ALUMNAS_MENTOR_SEEDS = [
     "rating": 5,
     "reviewCount": 0,
     "duration": 45,
-    "price": 1299,
+    "price": 1499,
     "photo": "./assets/kamile-muzikinisteatras.jpg",
     "facts": [
       "Yra komunikabili ir drąsi",
@@ -512,7 +512,7 @@ window.ALUMNAS_MENTOR_SEEDS = [
     "rating": 5,
     "reviewCount": 0,
     "duration": 45,
-    "price": 1299,
+    "price": 1499,
     "photo": "./assets/ula-globalirinkodara.jpg",
     "facts": [
       "Plaukimą lanko jau 12 metų",
@@ -540,7 +540,7 @@ window.ALUMNAS_MENTOR_SEEDS = [
     "rating": 5,
     "reviewCount": 0,
     "duration": 45,
-    "price": 1299,
+    "price": 1499,
     "photo": "./assets/migle-gyvunuzmogaus-saveikalsmu.jpg",
     "facts": [
       "Šiuo metu turi 10 kačių ir 5 šunis",
@@ -568,7 +568,7 @@ window.ALUMNAS_MENTOR_SEEDS = [
     "rating": 5,
     "reviewCount": 0,
     "duration": 45,
-    "price": 1299,
+    "price": 1499,
     "photo": "./assets/kamile-politikosmokslaivu.jpg",
     "facts": [
       "Turi padykusį katiną vardu Žirnis",
@@ -596,7 +596,7 @@ window.ALUMNAS_MENTOR_SEEDS = [
     "rating": 5,
     "reviewCount": 0,
     "duration": 45,
-    "price": 1299,
+    "price": 1499,
     "photo": "./assets/kamile-zliobaite-lsmukinezi.jpg",
     "facts": [
       "Esu pozityvi ir nuoširdi",
@@ -624,7 +624,7 @@ window.ALUMNAS_MENTOR_SEEDS = [
     "rating": 5,
     "reviewCount": 0,
     "duration": 45,
-    "price": 1299,
+    "price": 1499,
     "photo": "./assets/ruta-teiseIIIvdu.jpg",
     "facts": [
       "Studijuoja teisę, bet slaptas hobis yra kurti turinį socialiniams tinklams",
@@ -652,7 +652,7 @@ window.ALUMNAS_MENTOR_SEEDS = [
     "rating": 5,
     "reviewCount": 0,
     "duration": 45,
-    "price": 1299,
+    "price": 1499,
     "photo": "./assets/egle-taikomojifotografija.jpg",
     "facts": [
       "Gamta jai yra be galo artima",
@@ -680,7 +680,7 @@ window.ALUMNAS_MENTOR_SEEDS = [
     "rating": 5,
     "reviewCount": 0,
     "duration": 45,
-    "price": 1299,
+    "price": 1499,
     "photo": "./assets/adela-interjerodizainas-vilniauskolegija.jpg",
     "facts": [
       "Pastebi tai, ko kiti nepastebi",
@@ -697,6 +697,35 @@ window.ALUMNAS_MENTOR_SEEDS = [
       "Klausimais apie interjero dizaino studijas",
       "Kūrybinės krypties pasirinkimo aptarimu",
       "Studijų kasdienybės Vilniaus kolegijoje supratimu"
+    ]
+  },
+  {
+    "id": "viktorija-viko-sokiu-pedagogika",
+    "name": "Viktorija",
+    "university": "Vilniaus kolegija",
+    "studyProgram": "Šokių pedagogika",
+    "studyYear": "3 kursas",
+    "rating": 5,
+    "reviewCount": 0,
+    "duration": 45,
+    "price": 1499,
+    "photo": "./assets/viktorija-sokiu-pedagogika.jpg",
+    "photoPosition": "50% 18%",
+    "facts": [
+      "Esu šokių mokytoja",
+      "Myliu šunis",
+      "Labai bijau vorų"
+    ],
+    "tags": [
+      "Vilniaus kolegija",
+      "Šokių pedagogika",
+      "Pedagogika"
+    ],
+    "bio": "Viktorija dalijasi šokių pedagogikos studijų patirtimi ir padeda geriau suprasti, kaip atrodo kūrybinė bei pedagoginė studijų pusė.",
+    "helpWith": [
+      "Klausimais apie šokių pedagogikos studijas",
+      "Studijų kasdienybės Vilniaus kolegijoje aptarimu",
+      "Asmeninės patirties pasidalijimu prieš stojimą"
     ]
   }
 ];
