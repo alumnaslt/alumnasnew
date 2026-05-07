@@ -893,6 +893,14 @@ ul {
 }
 
 @media (max-width: 820px) {
+  .site-header {
+    position: static;
+  }
+
+  .header-inner {
+    gap: 1rem;
+  }
+
   .site-nav {
     justify-content: flex-start;
     gap: 0.9rem 1.2rem;
@@ -959,6 +967,21 @@ ul {
     width: min(calc(100% - 28px), var(--max-width));
   }
 
+  .site-header {
+    position: static;
+  }
+
+  .header-inner {
+    padding: 0.9rem 0 1rem;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.9rem;
+  }
+
+  .brand-link {
+    justify-content: center;
+  }
+
   .top-note {
     padding: 0.72rem 0.9rem;
   }
@@ -968,18 +991,43 @@ ul {
   }
 
   .brand-logo {
-    width: 318px;
-    height: 80px;
+    width: min(100%, 260px);
+    height: 64px;
   }
 
   .brand-logo-light {
-    width: 240px;
-    height: 62px;
+    width: min(100%, 214px);
+    height: 56px;
   }
 
   .brand-logo img,
   .brand-logo-light img {
-    transform: scale(2.75);
+    transform: scale(2.48);
+  }
+
+  .site-nav {
+    width: 100%;
+    gap: 0.55rem;
+    justify-content: stretch;
+  }
+
+  .site-nav a {
+    flex: 1 1 calc(33.333% - 0.55rem);
+    min-width: 0;
+    min-height: 2.9rem;
+    padding: 0.75rem 0.9rem;
+    border: 1px solid rgba(18, 63, 121, 0.12);
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.82);
+    text-align: center;
+  }
+
+  .site-nav a.is-active {
+    background: rgba(18, 63, 121, 0.08);
+  }
+
+  .header-inner > .button {
+    width: 100%;
   }
 
   .mentor-watermark img {
@@ -1004,7 +1052,7 @@ ul {
 
   .hero,
   .section {
-    padding: 4rem 0;
+    padding: 3.5rem 0;
   }
 
   .hero-copy {
@@ -1027,6 +1075,19 @@ ul {
     width: 100%;
   }
 
+  .hero h1 {
+    max-width: none;
+    font-size: clamp(2.35rem, 10vw, 3.5rem);
+  }
+
+  .hero-text,
+  .section-text,
+  .quote-card p,
+  .mentor-text,
+  .footer-copy p {
+    font-size: 0.98rem;
+  }
+
   .hero-meta li {
     width: 100%;
     text-align: center;
@@ -1036,6 +1097,30 @@ ul {
   .quote-intro h2,
   .mentor-head h2 {
     line-height: 1.05;
+  }
+
+  .quote-card,
+  .pricing-card,
+  .plans-side,
+  .mentor-wrap,
+  .footer-top {
+    padding-left: 1.35rem;
+    padding-right: 1.35rem;
+  }
+
+  .price {
+    font-size: 2.15rem;
+  }
+
+  .footer-top {
+    gap: 1.25rem;
+    text-align: center;
+  }
+
+  .footer-brand,
+  .footer-links {
+    justify-self: center;
+    justify-items: center;
   }
 }
 
@@ -1945,10 +2030,12 @@ ul {
 
   .about-intro-copy h1 {
     max-width: 11ch;
+    font-size: clamp(2.25rem, 9vw, 3.35rem);
   }
 
   .about-mosaic {
     margin-top: 1.5rem;
+    row-gap: 0.85rem;
   }
 
   .about-story-brief {
@@ -1960,7 +2047,7 @@ ul {
   }
 
   .about-shot-portrait {
-    min-height: 220px;
+    min-height: 200px;
   }
 
   .founders-compact-grid {
@@ -1975,7 +2062,7 @@ ul {
   }
 
   .mentors-hero-visual {
-    min-height: 280px;
+    min-height: 320px;
   }
 
   .mentors-hero-overlay {
@@ -1983,11 +2070,17 @@ ul {
     right: 1rem;
     bottom: 1rem;
     padding: 1.15rem;
+    border-radius: 22px;
   }
 
   .mentors-hero-overlay h1 {
     max-width: 11ch;
     font-size: clamp(2rem, 8vw, 3rem);
+  }
+
+  .mentors-hero-overlay .mentors-lead {
+    font-size: 0.94rem;
+    line-height: 1.55;
   }
 
   .mentor-directory-toolbar {
@@ -2005,20 +2098,39 @@ ul {
 
   .mentor-card-layout {
     grid-template-columns: 1fr;
+    gap: 1rem;
   }
 
   .mentor-card-photo-wrap {
-    width: 88px;
-    height: 88px;
+    width: 104px;
+    height: 104px;
+    margin: 0 auto;
   }
 
   .mentor-card-top {
     flex-direction: column;
+    gap: 0.65rem;
   }
 
   .mentor-card-rating {
     justify-items: start;
     text-align: left;
+  }
+
+  .mentor-card-name {
+    font-size: 1.38rem;
+  }
+
+  .mentor-card-study {
+    font-size: 0.96rem;
+  }
+
+  .mentor-card-bottom {
+    gap: 0.8rem;
+  }
+
+  .mentor-card-button-contact {
+    max-width: none;
   }
 
   .mentor-card-button,
@@ -2480,16 +2592,52 @@ ul {
     width: 96px;
     height: 96px;
   }
+
+  .booking-result-card h1 {
+    font-size: clamp(2rem, 7vw, 3rem);
+  }
 }
 
 @media (max-width: 640px) {
   .booking-modal-shell {
-    padding: 0.85rem;
+    align-items: flex-end;
+    padding: 0.65rem;
+  }
+
+  .booking-modal-card {
+    width: 100%;
+    max-height: min(88vh, 820px);
+    padding: 1.05rem;
+    border-radius: 24px;
+  }
+
+  .booking-modal-close {
+    width: 2.7rem;
+    height: 2.7rem;
+    font-size: 1.65rem;
+  }
+
+  .booking-modal-profile-copy h2 {
+    font-size: clamp(1.7rem, 7vw, 2.25rem);
+  }
+
+  .booking-modal-panel,
+  .booking-form {
+    padding: 1.05rem;
   }
 
   .booking-date-grid,
   .booking-slot-grid {
     grid-template-columns: 1fr;
+  }
+
+  .booking-date-chip {
+    min-height: 4rem;
+  }
+
+  .booking-slot-button,
+  .booking-form-field input {
+    min-height: 3.1rem;
   }
 
   .booking-result-actions,
