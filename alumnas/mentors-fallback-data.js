@@ -657,7 +657,7 @@ window.ALUMNAS_MENTOR_SEEDS = [
     "facts": [
       "Gamta jai yra be galo artima",
       "Muzika bei poezija yra neatsiejama jos dalis",
-      "Gyvena dėstytojo nuomojamame bute :D"
+      "Gyvena dėstytojo nuomojamame bute"
     ],
     "tags": [
       "Vilniaus dizaino kolegija",
